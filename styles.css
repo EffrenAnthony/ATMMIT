@@ -1,0 +1,67 @@
+button {
+  background-color: #e7edf3;
+  border: 6px solid #202020;
+  border-radius: 10px;
+  width: 150px;
+}
+
+select {
+  display: block;
+  margin-bottom: 20px;
+}
+body{
+  height: 100vh;
+  display: grid;
+  background-color: #678bff !important;
+  place-content: center;
+}
+
+select {
+  padding: 10px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+form{
+  max-width: 450px;
+}
+.buttons-div{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+input[type=number] {
+  color: rgb(0, 255, 170);
+  background-color: black;
+  font-size: 20px;
+  width: 100%;
+  text-align: right;
+  padding: 10px 25px;
+  border-radius: 10px;
+}
+
+input[type=submit]{
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.huge{
+
+  margin-top: 30px;
+  width: 100%;
+}
+img{
+  width: 150px;
+}
+
+.alert{
+  color: red;
+}
+
+.bills-div{
+  margin-top: 20px;
+  max-width: 600px;
+}
